@@ -1,0 +1,11 @@
+{
+  "codeowners": ["@phha"],
+  "config_flow": false,
+  "dependencies": [],
+  "documentation": "https://github.com/phha/caldav_todo",
+  "domain": "caldav_todo",
+  "iot_class": "cloud_polling",
+  "name": "Caldav ToDo List",
+  "requirements": ["caldav==0.8.2"],
+  "version": "0.0.1"
+}

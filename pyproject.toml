@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "caldav_todo"
+version = "0.0.1"
+description = "Caldav ToDo List"
+authors = ["Philipp Hack <philipp.hack@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+caldav = "0.8.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.5"
+pytest-cov = "2.12.1"
+pytest-homeassistant-custom-component = "^0.5.12"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
